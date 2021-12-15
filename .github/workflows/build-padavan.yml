@@ -38,7 +38,8 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: MI-MINI
+        #TNAME: MI-MINI
+        TNAME: K2P-USB-5.0
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
