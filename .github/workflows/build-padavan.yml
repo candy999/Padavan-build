@@ -45,8 +45,8 @@ jobs:
     - name: Build Firmware
       env:
         #TNAME: MI-MINI
-        #TNAME: K2P-USB-5.0
-        TNAME: CR660x
+        TNAME: K2P-USB
+        #TNAME: CR660x
         KERNEL: 4.4
       run: |
         cd /opt/rt-n56u/trunk
