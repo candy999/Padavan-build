@@ -44,8 +44,8 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        #TNAME: MI-MINI
-        TNAME: K2P
+        TNAME: MI-MINI
+        #TNAME: K2P
         #TNAME: CR660x
         KERNEL: 3.4
       run: |
